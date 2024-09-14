@@ -29,7 +29,7 @@ def recognize_speech():
                 subprocess.run(["C:\\Windows\\explorer.exe"])
             elif "visual studio code" in command:
                 print("Opening Visual Studio Code...")
-                subprocess.run(["C:\\Users\\muham\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"])
+                subprocess.run(["C:\\Users\\#username\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"])
             elif "change my volume to" in command:
                 print("Changing volume...")
                 change_volume(command)
